@@ -10,8 +10,6 @@ app.get('/', (req, res) => {
   res.send('RESTful API is up and running');
 });
 
-// Aquí se agregarán los endpoints de la API
-
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
