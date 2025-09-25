@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('API RESTful en funcionamiento');
+  res.send('RESTful API is up and running');
 });
 
 // Aquí se agregarán los endpoints de la API
